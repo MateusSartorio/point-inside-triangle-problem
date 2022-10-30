@@ -6,10 +6,9 @@
 
 template<typename T>
 struct point {
-  private:
+  public:
     T x, y;
 
-  public:
     point(T x, T y) : x(x), y(y) {}
     point() : x(0), y(0) {}
     
